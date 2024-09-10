@@ -62,6 +62,9 @@ export default {
       <!-- Mensaje de carga mientras se obtienen los usuarios -->
       <div class="text-center" v-else>
         <h2>Cargando usuarios...</h2>
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
       </div>
     </div>
   </div>
